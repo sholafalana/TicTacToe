@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE9F116"
+    tools:context="com.a0.alcwithgoogle2.tictactoe.Main2Activity">
+
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="playbutton"
+        android:text="ONE PLAYER"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/play2"
+        android:layout_below="@id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="playbutton2"
+        android:text="TWO PLAYER"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="ABOUT"
+        android:onClick="about"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+</RelativeLayout>
+
+
